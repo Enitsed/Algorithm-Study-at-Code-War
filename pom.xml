@@ -3,7 +3,13 @@
   <groupId>crewmate</groupId>
   <artifactId>algorithm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+
+	<!-- when using java 9 or newer version, use 1.6 maven compiler instead. error occurs otherwise	-->
+	<properties>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
+
   <dependencies>
   	<!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependency>
